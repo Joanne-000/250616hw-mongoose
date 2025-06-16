@@ -1,0 +1,19 @@
+{
+  "name": "250616hw-mongoose",
+  "private": true,
+  "scripts": {
+    "dev" : "bun --watch queries.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.2",
+    "prompt-sync": "^4.2.0"
+  }
+}
